@@ -97,15 +97,15 @@ h2 {
   }
 
   main {
-    min-width: 0;
+    min-width: 300px;
     max-width: 400px;
     margin: 0 auto;
   }
 
   a {
     margin: 8px auto 0;
-    min-width: 300px;
-    max-width: 330px;
+    width: 250px;
+    padding: 2px;
   }
 
   address {
