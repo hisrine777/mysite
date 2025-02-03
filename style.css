@@ -50,7 +50,7 @@ a {
   all: unset;
   display: block;
   margin: 32px auto 0;
-  width: 500px;
+  width: 450px;
   box-shadow: 0 0 8px;
   border-radius: 4px;
 }
@@ -93,7 +93,7 @@ h2 {
 
 @media (max-width: 770px) {
   body {
-    background: rgb(254, 206, 189);
+    background: rgb(252, 196, 176);
   }
 
   main {
@@ -104,7 +104,8 @@ h2 {
 
   a {
     margin: 8px auto 0;
-    width: 340px;
+    min-width: 300px;
+    max-width: 330px;
   }
 
   address {
